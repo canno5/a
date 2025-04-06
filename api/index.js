@@ -33,4 +33,3 @@ app.get('/contact', (req,res)=>{
 app.listen(port, ()=>{
     console.log('I am live to '+port);
 });
-module.exports = app;
